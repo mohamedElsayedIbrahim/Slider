@@ -1,0 +1,57 @@
+.item
+{
+    position: relative;
+}
+
+.item img
+{
+    cursor: pointer;
+}
+.item .item-info
+{
+    background-color:#eee;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    bottom:30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#popup
+{
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#popup .selectedElement
+{
+    background-image: url('../images/silder/best-skincare-products-1656081764.jpg');
+    background-size: 100% 100%;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+}
+
+#popup .selectedElement .slide-btn
+{
+    cursor: pointer;
+}
+#popup .selectedElement #close
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
